@@ -1,0 +1,5 @@
+D:\git\TeslaQR\xmlrpcwsc\bin\Release\xmlrpcwsc.dll
+D:\git\TeslaQR\xmlrpcwsc\bin\Release\xmlrpcwsc.pdb
+D:\git\TeslaQR\xmlrpcwsc\obj\Release\xmlrpcwsc.csprojResolveAssemblyReference.cache
+D:\git\TeslaQR\xmlrpcwsc\obj\Release\xmlrpcwsc.dll
+D:\git\TeslaQR\xmlrpcwsc\obj\Release\xmlrpcwsc.pdb

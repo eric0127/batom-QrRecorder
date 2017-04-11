@@ -1,0 +1,4 @@
+D:\git\TeslaQR\HidLibrary\bin\Release\HidLibrary.dll
+D:\git\TeslaQR\HidLibrary\bin\Release\HidLibrary.pdb
+D:\git\TeslaQR\HidLibrary\obj\Release\HidLibrary.dll
+D:\git\TeslaQR\HidLibrary\obj\Release\HidLibrary.pdb
