@@ -3,3 +3,8 @@ D:\git\TeslaQR\xmlrpcwsc\bin\Debug\xmlrpcwsc.pdb
 D:\git\TeslaQR\xmlrpcwsc\obj\Debug\xmlrpcwsc.csprojResolveAssemblyReference.cache
 D:\git\TeslaQR\xmlrpcwsc\obj\Debug\xmlrpcwsc.dll
 D:\git\TeslaQR\xmlrpcwsc\obj\Debug\xmlrpcwsc.pdb
+D:\git\QrRecoder\xmlrpcwsc\bin\Debug\xmlrpcwsc.dll
+D:\git\QrRecoder\xmlrpcwsc\bin\Debug\xmlrpcwsc.pdb
+D:\git\QrRecoder\xmlrpcwsc\obj\Debug\xmlrpcwsc.csprojResolveAssemblyReference.cache
+D:\git\QrRecoder\xmlrpcwsc\obj\Debug\xmlrpcwsc.dll
+D:\git\QrRecoder\xmlrpcwsc\obj\Debug\xmlrpcwsc.pdb

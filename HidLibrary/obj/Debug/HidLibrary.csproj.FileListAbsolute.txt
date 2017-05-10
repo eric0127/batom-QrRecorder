@@ -3,3 +3,7 @@ D:\git\TeslaQR\HidLibrary\bin\Debug\HidLibrary.pdb
 D:\git\TeslaQR\HidLibrary\obj\Debug\HidLibrary.csprojResolveAssemblyReference.cache
 D:\git\TeslaQR\HidLibrary\obj\Debug\HidLibrary.dll
 D:\git\TeslaQR\HidLibrary\obj\Debug\HidLibrary.pdb
+D:\git\QrRecoder\HidLibrary\bin\Debug\HidLibrary.dll
+D:\git\QrRecoder\HidLibrary\bin\Debug\HidLibrary.pdb
+D:\git\QrRecoder\HidLibrary\obj\Debug\HidLibrary.dll
+D:\git\QrRecoder\HidLibrary\obj\Debug\HidLibrary.pdb

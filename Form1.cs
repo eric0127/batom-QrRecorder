@@ -44,7 +44,11 @@ namespace TeslaQR
 
         private void ReadProcess(HidReport report)
         {
-            BeginInvoke(new ReadHandlerDelegate(ReadHandler), new object[] { report });
+            try
+            {
+                BeginInvoke(new ReadHandlerDelegate(ReadHandler), new object[] { report });
+            }
+            catch { }
         }
 
         private void ReadHandler(HidReport report)
@@ -83,12 +87,15 @@ namespace TeslaQR
             if (deviceList.Length <=0)
             {
                 MessageBox.Show("找不到 Honeywell 掃描槍", "錯誤");
+                Application.Exit();
             }
             else
             {
+                string deviceDescription = "";
                 foreach (HidDevice hidDevice in deviceList)
                 {
-                    if (hidDevice.Description == "POS HID Barcode scanner" && QUALIFIED_SCANNER_ID.Contains(hidDevice.Attributes.ProductHexId))
+                    deviceDescription += "\n" + hidDevice.Description + " (" + hidDevice.Attributes.ProductHexId + ")";
+                    if (QUALIFIED_SCANNER_ID.Contains(hidDevice.Attributes.ProductHexId))
                     {
                         _hidDevice = hidDevice;
                         _hidDevice.OpenDevice();
@@ -101,7 +108,7 @@ namespace TeslaQR
                 {
                     picHidBarcode.Visible = true;
                     btnSave.Visible = false;
-                    MessageBox.Show("請掃描螢幕下方條碼將掃描槍設定為 HID 模式後重新啟動 TeslaQR", "錯誤");
+                    MessageBox.Show("請掃描螢幕下方條碼將掃描槍設定為 HID 模式後重新啟動 TeslaQR" + deviceDescription, "錯誤");
                 }
             }
         }

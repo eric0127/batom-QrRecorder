@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeslaQR", "TeslaQR.csproj", "{34E243B2-5FB7-41A3-B5A1-1F44D7EB248C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrRecorder", "QrRecorder.csproj", "{34E243B2-5FB7-41A3-B5A1-1F44D7EB248C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{B5FA7348-6454-4545-AC0C-5E94FE53FB6C} = {B5FA7348-6454-4545-AC0C-5E94FE53FB6C}
 		{9E8F1D50-74EA-4C60-BD5C-AB2C5B53BC66} = {9E8F1D50-74EA-4C60-BD5C-AB2C5B53BC66}
